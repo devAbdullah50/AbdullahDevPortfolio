@@ -43,7 +43,7 @@ function App() {
       <Navbar />
       <div className="hr h-[1px] w-full mx-auto bg-gray-700"></div>
       <main>
-        <section className="firstSection min-h-[90vh] flex justify-around flex-col-reverse md:flex-row items-center py-20">
+        <section className="firstSection min-h-[90vh] flex justify-around flex-col-reverse md:flex-row items-center py-20 px-0">
           <div className="left">
             <div className="hed text-4xl sm:text-6xl md:text-5xl lg:text-6xl md:text-start text-center font-extrabold my-4">
               <div className='text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-cyan-500'>Hi, I'm</div>
@@ -59,7 +59,7 @@ function App() {
             </div>
           </div>
           <div className="right">
-            <img src="dev.png" alt="Developer Image" className='rounded-full mt-5 md:mt-0 md:w-lg w-full' />
+            <img src="dev.png" alt="Developer Image" className='rounded-full mt-5 mx-0 md:mt-0 md:w-lg w-full' />
           </div>
         </section>
         <div className="hr h-[1px] w-full mx-auto bg-gray-700"></div>
