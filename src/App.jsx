@@ -137,11 +137,45 @@ function App() {
 
         <div className="hr h-[1px] w-full mx-auto bg-gray-700"></div>
 
+        <section id="message" class="bg-[#121212] py-12 px-4">
+  <div class="max-w-xl mx-auto bg-slate-900 p-8 rounded-2xl shadow-lg">
+    <h2 class="text-3xl font-bold text-center text-gray-200 mb-6">Contact Me</h2>
+    <form action="https://formsubmit.co/devabdullah50@gmail.com" method="POST" class="space-y-5">
+      
+      <div>
+        <label class="block mb-1 text-gray-700 font-medium">Your Name</label>
+        <input type="text" name="name" required
+               class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500" />
+      </div>
+
+      <div>
+        <label class="block mb-1 text-gray-700 font-medium">Your Email</label>
+        <input type="email" name="email" required
+               class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500" />
+      </div>
+
+      <div>
+        <label class="block mb-1 text-gray-700 font-medium">Your Message</label>
+        <textarea name="message" rows="5" required
+                  class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500"></textarea>
+      </div>
+
+      <button type="submit"
+              class="w-full bg-teal-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-teal-700 transition duration-300">
+        Send Message
+      </button>
+    </form>
+  </div>
+</section>
+
+
+        <div className="hr h-[1px] w-full mx-auto bg-gray-700"></div>
+
         <section id='contact' className='fourthSection py-5 flex flex-col md:flex-row justify-around'>
           <div className="left md:w-lg w-full">
             <h3 className='font-bold text-xl ml-3'>Let's Connect</h3>
             <p className='text-xs md:text-sm ml-4'>I'm always excited to collaborate on new projects, discuss innovative ideas, or simply chat about tech! Whether you're looking for a skilled developer to bring your vision to life, need some advice on your latest project, or just want to connect with a fellow tech enthusiast, I'd love to hear from you. Feel free to reach out via email or connect with me on LinkedIn & I'll try my best to get back to you as soon as possible! Let's build something amazing together!</p>
-            <button className='bg-gradient-to-r from-green-400 to-blue-400 p-3 rounded-xl cursor-pointer hover:from-red-400 hover:to-yellow-400 mx-auto w-full my-5'>Send Message</button>
+            <a href="#message"><button className='bg-gradient-to-r from-green-400 to-blue-400 p-3 rounded-xl cursor-pointer hover:from-red-400 hover:to-yellow-400 mx-auto w-full my-5'>Send Message</button></a>
           </div>
           <div className="right">
             <h3>My Socials</h3>
