@@ -64,7 +64,7 @@ function App() {
         </section>
         <div className="hr h-[1px] w-full mx-auto bg-gray-700"></div>
 
-        <section id='about' className='secondSection'>
+        <section id='about' className='secondSection w-full'>
           <div className="info flex flex-col md:flex-row w-[120px] space-y-10 md:space-y-0 justify-around items-center md:w-[90%] mx-auto border-[1px] border-gray-400 my-10 py-7 px-0 rounded">
             <div className="projects text-center">
               <h3 className='font-bold text-4xl'>10+</h3>
@@ -88,7 +88,7 @@ function App() {
           </div>
 
           <div className="about flex flex-col md:flex-row justify-around items-center">
-            <img src="aboutme.png" alt="About me Image" className='md:w-[500px] w-full m-4 rounded-lg' />
+            <img src="aboutme.png" alt="About me Image" className='md:w-[500px] w-full md:m-4  my-4 m-0 rounded-lg' />
             <div className="about md:w-lg w-full text-center">
               <h3 className='text-4xl font-bold my-4'>About Me</h3>
               <p className='text-start mx-4 text-xs md:text-sm'>I am a full stack web developer with a passion for creating interactive and responsive web applications. I have experience working with JavaScript, React, Python, Node.js, Express, MongoDB, NextJS, HTML, CSS, React, & dev tools among others. I am a quick learner and I am always looking to expand my knowledge and skill set. I am a team player and I am excited to work with others to create amazing web applications.</p>

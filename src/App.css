@@ -1,39 +1,27 @@
-/* DEBUG: Outline every element to find overflow issue */
-* {
-    outline: 1px solid rgba(255, 0, 0, 0.2); /* Temporary: Remove after debugging */
-    box-sizing: border-box;
-  }
-  
-  /* Fix for wide images and containers */
-  img, video, iframe {
+img, video, iframe {
     max-width: 100%;
     height: auto;
     display: block;
   }
   
-  /* Common containers fix */
-  .container, .section, .wrapper, .content, .card {
+.container, .section, .wrapper, .content, .card {
     max-width: 100%;
     overflow-x: hidden;
     padding-left: 16px;
     padding-right: 16px;
   }
   
-  /* Prevent unwanted overflow */
-  body {
+ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden; /* Hide horizontal scrollbar */
   }
-  
-  /* Prevent text or large elements from breaking layout */
-  p, h1, h2, h3, h4, h5, h6 {
+p, h1, h2, h3, h4, h5, h6 {
     word-wrap: break-word;
     overflow-wrap: break-word;
   }
   
-  /* Optional: Fix layout grids and flex containers */
-  .row, .flex, .grid {
+.row, .flex, .grid {
     flex-wrap: wrap;
     overflow-x: hidden;
     max-width: 100%;
