@@ -6,3 +6,7 @@ body {
 .shdw{
   box-shadow: 9px -1px 100px 100px #008236;
 }
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 100px;
+}
