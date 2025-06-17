@@ -180,10 +180,10 @@ function App() {
           <div className="right">
             <h3>My Socials</h3>
             <div className='flex gap-5'>
-              <a href='/'><img src={github} alt="GitHub" className='my-5 w-10' /></a>
-              <a href='/'><img src={facebook} alt="Facebook" className='my-5 w-10' /></a>
-              <a href='/'><img src={instagram} alt="Instagram" className='my-5 w-10' /></a>
-              <a href='/'><img src={youtube} alt="YouTube" className='my-5 w-10' /></a>
+              <a href='https://github.com/devAbdullah50'><img src={github} alt="GitHub" className='my-5 w-10' /></a>
+              <a href='https://web.facebook.com/muhammad.abdullah.446139'><img src={facebook} alt="Facebook" className='my-5 w-10' /></a>
+              <a href='https://www.instagram.com/abdullah_developer_918/'><img src={instagram} alt="Instagram" className='my-5 w-10' /></a>
+              <a href='https://www.youtube.com/@ZeroToCode50'><img src={youtube} alt="YouTube" className='my-5 w-10' /></a>
             </div>
           </div>
         </section>
