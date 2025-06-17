@@ -51,7 +51,7 @@ function App() {
               <div>developer</div>
             </div>
             <div className="desc md:w-md w-full mx-2 text-gray-400">Based in islamabad, Abdullah is a passionate web developer who love to be the part of big projects</div>
-            <div className="buttons my-5 flex flex-col md:flex-row md:w-md w-full justify-around items-center">
+            <div className="buttons my-5 flex flex-col gap-2 md:flex-row md:w-md w-full justify-around items-center">
               <button className='bg-gradient-to-r from-green-400 to-blue-400 p-3 rounded-full cursor-pointer hover:from-red-400 hover:to-yellow-400 w-full md:w-fit'>Contact Me</button>
               <div className='bg-gradient-to-r from-green-400 to-blue-400 p-1 rounded-full w-full md:w-fit'>
                 <div className='w-full h-[100%] rounded-full p-3 flex justify-center items-center bg-slate-900 hover:bg-slate-800 cursor-pointer'>My Projects</div>
@@ -177,7 +177,7 @@ function App() {
             <p className='text-xs md:text-sm ml-4'>I'm always excited to collaborate on new projects, discuss innovative ideas, or simply chat about tech! Whether you're looking for a skilled developer to bring your vision to life, need some advice on your latest project, or just want to connect with a fellow tech enthusiast, I'd love to hear from you. Feel free to reach out via email or connect with me on LinkedIn & I'll try my best to get back to you as soon as possible! Let's build something amazing together!</p>
             <a href="#message"><button className='bg-gradient-to-r from-green-400 to-blue-400 p-3 rounded-xl cursor-pointer hover:from-red-400 hover:to-yellow-400 mx-auto w-full my-5'>Send Message</button></a>
           </div>
-          <div className="right">
+          <div className="right flex flex-col justify-center items-center">
             <h3>My Socials</h3>
             <div className='flex gap-5'>
               <a href='https://github.com/devAbdullah50'><img src={github} alt="GitHub" className='my-5 w-10' /></a>
